@@ -6,6 +6,7 @@
     padding: 0 ;
     margin: 0 ;
     scroll-behavior: smooth;
+    list-style: none;
 }
 
 header {
@@ -95,4 +96,60 @@ section {
     color: #fff;
     font-size: 30px;
     padding-left: 15px;
+}
+
+.skills .title {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 800;
+    color: #0c4dff;
+    margin-bottom: 30px;
+}
+
+.skills .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.icon {
+    color: #0c4dff;
+    margin: 5px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 800;
+}
+
+.card {
+    background-color: #fff;
+    width: 30em;
+    height: 40em;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.lang {
+   display:block;
+   margin: 10px;
+   margin-bottom: 5px;
+   font-weight: 500;
+    word-spacing: 10px;
+}
+
+.info {
+    text-align: center;
+    
+}
+
+.card .courses {
+    display: block;
 }
